@@ -1,5 +1,6 @@
 # B-Spline
 Implementation of B-splines in MATLAB, including the execution of knot insertion and removal processes.
+
 A B-spline mathematical function was implemented in MATLAB to generate curves using seven control points of degree four. Initially, the function produced a smooth curve defined by these control points. To enhance the curve's flexibility, knot insertion was performed, increasing the number of control points to eight. This process allows for finer adjustments to the curve shape without altering its overall structure significantly.
 
 Subsequently, knot removal was conducted to revert the number of control points back to seven. This operation is essential for simplifying the curve representation while maintaining its essential characteristics. However, it's crucial to recognize the differences between degree elevation and degree reduction in B-splines.
